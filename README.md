@@ -14,7 +14,9 @@ https://www.nerdfonts.com/font-downloads
 ## Scoop installation
 
 to install scoop run the following command
+
     iwr -useb get.scoop.sh | iex
+
 
 if you run into policy problems you should enter the following command
 
