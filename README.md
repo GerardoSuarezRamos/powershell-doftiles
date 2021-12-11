@@ -46,13 +46,11 @@ inside this we will find a folder called .config/ exactly we must include the po
 
 then create a new configuration folder and navigate to it:
 
-    mkdir powershell
-    
-    cd powershell
+    mkdir powershell && cd powershell
 
 inside this folder we will clone the configuration files, these will suffer some small modifications, you must change the name gerar.omp.json, to the name of your user, that is to say: 
 
-    ${you_current}_user.omp.json
+    ${you_current_user}.omp.json
 
 after changing this name, enter the file user_profile.ps1, and change the following line: 
 
@@ -95,5 +93,11 @@ Secondly, I would like to mention that the current features are:
 4. git status (insertions, deletions, additions)
 5. current git branch where user is currently editing
 6. The time (for those of us who lose hours programming)
+
+
+Attached is a picture of how your terminal should look like:
+
+![image](https://user-images.githubusercontent.com/59595322/145665790-cac36e47-158e-4bb9-b926-339a59d2d014.png)
+
 
 Happy hacking 👋
